@@ -53,6 +53,11 @@ body {
     text-decoration: none;
 }
 
+*, ::after, ::before {
+    box-sizing: border-box;
+    justify-content: center;
+}
+
 @media (max-width: 767px) {
     .carousel-item img {
         height: 120px;
